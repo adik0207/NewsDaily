@@ -1,0 +1,13 @@
+.card {
+  width: 18rem;
+  margin: 10px;
+}
+
+.card-img-top {
+  height: 150px;
+  object-fit: cover;
+}
+
+.card-body {
+  text-align: left;
+}

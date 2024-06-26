@@ -1,0 +1,34 @@
+body {
+  background-color: black;
+  font-family: 'Roboto', sans-serif;
+  color: #343a40;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #007bff;
+}
+
+.navbar {
+  background-color: turquoise;
+  border-bottom: 2px solid #007bff;
+}
+
+.navbar-brand {
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  color: #fff !important;
+}
+
+.nav-link:hover {
+  color: #007bff !important;
+}
+
+.active {
+  color: #007bff !important;
+}

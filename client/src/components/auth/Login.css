@@ -1,0 +1,30 @@
+.login-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 400px; /* Decrease the max-width to shorten the card */
+  padding: 20px; /* Decrease padding to shorten the card */
+  background: rgba(255, 255, 255, 0.9); /* Slightly increase the opacity */
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the form contents */
+}
+
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-container .form-group {
+  width: 100%;
+  margin-bottom: 15px; /* Add margin-bottom to create space between fields */
+}
+
+.login-container .btn {
+  width: 100%;
+  margin-top: 10px; /* Add margin-top to create space between fields and the button */
+}

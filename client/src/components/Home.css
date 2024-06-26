@@ -1,0 +1,10 @@
+.home {
+  text-align: center;
+  padding: 20px;
+}
+
+.article-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
